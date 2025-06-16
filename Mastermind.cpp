@@ -25,7 +25,7 @@ void guessColor(vector<string> colorLst) {
             cout << "Enter Peg " << "#" << index + 1 << ":" << endl;
             cin >> color;
             if (cin.fail()) {
-                cout << "OPERATION ABORTED! YOU BROKE THE PROGRAM !!" << endl;
+                cout << "OPERATION ABORTED! YOU BROKE THE PROGRAM!!" << endl;
                 exit(0);
             }
             else {
